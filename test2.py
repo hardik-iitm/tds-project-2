@@ -10,7 +10,7 @@ from answers import *
 
 app = FastAPI()
 
-client = genai.Client(api_key="AIzaSyDT1w6ss8EWUYcG4xmaJk-HmCbwYz8TAEI")
+client = genai.Client(api_key="your_api_key")
 
 MODEL_ID = "gemini-2.0-flash"
 
